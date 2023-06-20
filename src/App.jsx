@@ -11,23 +11,19 @@ const App = () => {
       </div>
 
       <div className={`${styles.paddingX} ${styles.flexStart}}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Hero />
-        </div>
+        <Hero />
       </div>
 
-      {/* <div className={`${styles.paddingX} ${styles.flexStart}}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Stats />
-          <Business />
+      <div className={`${styles.paddingX} ${styles.flexStart}}`}>
+        <Stats />
+        {/* <Business />
           <Billing />
           <CardDeal />
           <Testimonials />
           <Clients />
           <CTA />
-          <Footer />
-        </div>
-      </div> */}
+          <Footer /> */}
+      </div>
     </div >
   )
 }
