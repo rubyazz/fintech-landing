@@ -12,9 +12,9 @@ AOS.init();
 const Hero = () => {
   return (
     <section id='home' className={`${styles.paddingY} w-full h-full flex justify-center`} data-aos="fade-up" data-aos-duration="1000">
-      <div className={`gap-5 flex-col ${styles.flexStart} `}>
+      <div className={`gap-5 flex-col ${styles.flexStart}`}>
         {/* Discount Component */}
-        <div className='flex items-center bg-black-gradient xs:w-[350px] w-[410px] h-[40px] rounded-lg'>
+        <div className='flex items-center bg-black-gradient xs:w-[350px] rounded-lg'>
           <img className='w-[40px] h-[40px]' src={discount} alt="" />
           <p className='text-white font-medium'>
             20%
