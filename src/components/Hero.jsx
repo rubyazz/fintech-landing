@@ -11,7 +11,7 @@ AOS.init();
 
 const Hero = () => {
   return (
-    <section id='home' className={`${styles.paddingY} w-full h-full flex justify-center`} data-aos="fade-up" data-aos-duration="1000">
+    <section id='home' className={`${styles.paddingY} w-[100%] h-[100%] flex justify-center`} data-aos="fade-up" data-aos-duration="1000">
       <div className={`gap-5 flex-col ${styles.flexStart}`}>
         {/* Discount Component */}
         <div className='flex items-center bg-black-gradient xs:w-[350px] rounded-lg'>
@@ -31,7 +31,7 @@ const Hero = () => {
             <GetStarted />
           </div>
 
-          <h1 className='xs:leading-[70px] leading-[100px] font-poppins font-bold text-7xl l xs:text-6xl'>
+          <h1 className={`${styles.heading2}`}>
             The Next <br />
             <span className='text-gradient'>Generation</span>
             <br />Payment Method.
@@ -39,9 +39,8 @@ const Hero = () => {
         </div>
 
         {/* Description Component */}
-        <div className='my-6 text-white font-poppins xs:w-[100%] ss:w-[50%] opacity-70'>
-          <p>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs.
-            We examine annual percentage rates, annual fees.</p>
+        <div className={`${styles.paragraph} max-w-[85%] font-poppins xs:w-[100%] ss:w-[50%]`}>
+          <p>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. We examine annual percentage rates, annual fees.</p>
         </div>
       </div>
 

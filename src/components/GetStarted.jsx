@@ -8,8 +8,8 @@ AOS.init();
 
 const GetStarted = () => {
   return (
-    <div className='md:visible xs:invisible bg-primary border rounded-full flex p-[2px] mx-10 mb-10 w-[125px] h-[125px] absolute justify-center items-center'>
-        <div className='bg-primary text-gradient font-poppins font-semibold'>
+    <div className='md:visible xs:invisible bg-primary border rounded-full flex w-[130px] h-[130px] absolute justify-center items-center'>
+        <div className='text-gradient font-poppins font-semibold'>
             <div className='flex gap-1'>
                 <p>Get</p>
                 <img src={arrowUp} alt="arrow-up" />

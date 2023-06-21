@@ -11,7 +11,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false)
 
   return (
-    <nav className='z-10 w-full flex py-5 justify-between items-center'>
+    <nav className='z-10 w-full flex py-5 justify-between items-center sticky top-0'>
       <img className='w-[120px] h-[60px]' src={logo} alt='hoobank' data-aos='fade-down' data-aos-duration="1000"/>
       <ul className='sm:flex hidden justify-end items-center flex-1 gap-10' data-aos="fade-down" data-aos-duration="2000">
         {navLinks.map((nav) => (

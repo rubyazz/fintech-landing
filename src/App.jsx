@@ -5,7 +5,7 @@ import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Hero, Stats,
 
 const App = () => {
   return (
-    <div className='bg-primary w-full overflow-hidden'>
+    <div className='bg-primary w-full'>
       <div className={`${styles.paddingX} ${styles.flexCenter}}`}>
         <Navbar />
       </div>
@@ -14,10 +14,10 @@ const App = () => {
         <Hero />
       </div>
 
-      <div className={`${styles.paddingX} ${styles.flexStart}}`}>
+      <div className={`${styles.paddingX}`}>
         <Stats />
-        {/* <Business />
-          <Billing />
+        <Business />
+          {/* <Billing />
           <CardDeal />
           <Testimonials />
           <Clients />
