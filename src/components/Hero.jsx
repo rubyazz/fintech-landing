@@ -1,5 +1,4 @@
 import React from 'react'
-import GetStarted from './GetStarted'
 import { discount, robot } from '../assets'
 import styles from '../styles/styles.js'
 import '../constants/dataset.js'
@@ -11,41 +10,34 @@ AOS.init();
 
 const Hero = () => {
   return (
-    <section id='home' className={`${styles.paddingY} w-[100%] h-[100%] flex justify-center`} data-aos="fade-up" data-aos-duration="1000">
-      <div className={`gap-5 flex-col ${styles.flexStart}`}>
-        {/* Discount Component */}
-        <div className='flex items-center bg-black-gradient xs:w-[350px] rounded-lg'>
-          <img className='w-[40px] h-[40px]' src={discount} alt="" />
-          <p className='text-white font-medium'>
-            20%
-            <span className='text-gray-500 font-medium'> DISCOUNT FOR </span>
-            1 MONTH
-            <span className='text-gray-500 font-medium'> ACCOUNT </span>
-          </p>
-        </div>
-
-        {/* Text Componennt */}
-        <div className='text-white'>
-          <div className='flex justify-end' data-aos="fade-left" data-aos-duration="1000">
-            {/* GetStarted Component */}
-            <GetStarted />
+    <section id='' className={`${styles.paddingY} w-[100%] h-[100%] flex flex-row justify-center`} data-aos="fade-up" data-aos-duration="1000">
+      <div className={`gap-5 p-5 flex-col justify-center items-start xs:w-[100%]`}>
+        <div className='xs:flex-col ss:flex'>
+          {/* Discount Component */}
+          <div className='flex items-center bg-black-gradient xs:w-full ss:w-[350px] rounded-lg'>
+            <img className='w-[40px] h-[40px]' src={discount} alt="" />
+            <p className='text-white font-medium xs:text-xs ss:text-sm'>
+              20%
+              <span className='text-gray-500 font-medium'> DISCOUNT FOR </span>
+              1 MONTH
+              <span className='text-gray-500 font-medium'> ACCOUNT </span>
+            </p>
           </div>
 
-          <h1 className={`${styles.heading2}`}>
-            The Next <br />
-            <span className='text-gradient'>Generation</span>
-            <br />Payment Method.
-          </h1>
-        </div>
-
-        {/* Description Component */}
-        <div className={`${styles.paragraph} max-w-[85%] font-poppins xs:w-[100%] ss:w-[50%]`}>
-          <p>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. We examine annual percentage rates, annual fees.</p>
+          {/* Text Componennt */}
+          <div className='text-white'>
+            <h1 className={`${styles.heading2}`}>
+              The Next <br />
+              <span className='text-gradient'>Generation</span>
+              <br />Payment Method.
+            </h1>
+            <p className={`${styles.paragraph} max-w-[85%] font-poppins xs:w-[100%] ss:w-[50%]`}>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. We examine annual percentage rates, annual fees.</p>
+          </div>
         </div>
       </div>
 
       {/* Robot Component */}
-      <div className='w-[75%] xs:invisible md:visible flex justify-end pl-5 py-5' data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500">
+      <div className='xs:w-[50%] sm:w-[75%] flex justify-end pl-5 py-5' data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500">
         <img src={robot} alt="robot-hand" className='z-[5] w-[500px] h-[500px] object-contain' />
         <div className='absolute w-[40%] h-[35%] top-0 blue__gradient' />
         <div className='absolute w-[60%] h-[45%] pink__gradient' />

@@ -2,13 +2,13 @@ import Billing from './Billing';
 import Business from './Business';
 import CardDeal from './CardDeal';
 import Clients from './Clients';
-import CTA from './CTA';
+import CTA from './Button';
 import Footer from './Footer';
 import Navbar from './Navbar';
-import GetStarted from './GetStarted';
 import Hero from './Hero'
 import Stats from './Stats'
 import Testimonials from './Testimonials'
 import ValueBar from './ValueBar';
+import Button from './Button';
 
-export { ValueBar, Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, GetStarted, Hero, Stats, Testimonials };
+export { Button, ValueBar, Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Hero, Stats, Testimonials };

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles/styles'
-import { CTA, ValueBar } from './components'
+import { Button, ValueBar } from './components'
 import { star, shield, send } from '../assets'
 
 // Animate On Scroll
@@ -14,7 +14,7 @@ const Business = () => {
       <div className='max-w-[50%]'>
         <h1 className={`${styles.heading2} font-extrabold text-5xl leading-[70px]`}>You do the <span className='text-gradient'>business</span>, <br /> we'll handle the money.</h1>
         <p className={`${styles.paragraph} max-w-[85%]`}>With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.</p>
-        <CTA value={"Get Started"}/>
+        <Button value={"Get Started"}/>
       </div>
 
       <div className="max-w-[50%]">
