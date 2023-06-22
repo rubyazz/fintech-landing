@@ -10,5 +10,6 @@ import Stats from './Stats'
 import Testimonials from './Testimonials'
 import ValueBar from './ValueBar';
 import Button from './Button';
+import Card from './Card';
 
-export { Button, ValueBar, Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Hero, Stats, Testimonials };
+export { Card, Button, ValueBar, Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Hero, Stats, Testimonials };

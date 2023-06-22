@@ -9,7 +9,7 @@ AOS.init();
 
 const App = () => {
   return (
-    <div className='bg-primary w-full overflow-clip'>
+    <div className='bg-primary w-full overflow-clip py-4'>
       <div id='home'>
         <div className={`${styles.paddingX} ${styles.flexCenter}}`}>
           <Navbar />
@@ -31,12 +31,12 @@ const App = () => {
           <CardDeal />
         </div>
 
-        {/* <div id='clients'>
+        <div id='clients'>
           <Testimonials />
-          <Clients />
+          {/* <Clients />
           <CTA />
-          <Footer />
-        </div> */}
+          <Footer /> */}
+        </div>
       </div>
     </div >
   )
