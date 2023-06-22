@@ -10,7 +10,7 @@ const App = () => {
           <Navbar />
         </div>
 
-        <div id='home' className={`${styles.paddingX}`}>
+        <div className={`${styles.paddingX}`}>
           <Hero />
           <Stats />
         </div>
