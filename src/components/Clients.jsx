@@ -12,16 +12,9 @@ const Clients = () => {
     <div
       className={`${styles.paddingY} xs:hidden ss:flex flex-row w-[100%] h-[100%] gap-5 justify-evenly`}
     >
-      {clients.map(({ id, logo }) => (
-        <img
-          key={id}
-          className="object-contain w-[200px] h-[200px]"
-          src={logo}
-          alt="airbnb"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        />
-      ))}
+    
+
+    
     </div>
   );
 };

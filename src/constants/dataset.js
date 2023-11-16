@@ -17,16 +17,16 @@ import {
 
 export const navLinks = [
   {
-    id: "#features",
-    title: "Features",
+    id: "#delivery",
+    title: "Доставка",
   },
   {
-    id: "#product",
-    title: "Product",
+    id: "#team",
+    title: "Команда",
   },
   {
-    id: "#clients",
-    title: "Clients",
+    id: "#management",
+    title: "Управление",
   },
 ];
 
@@ -34,23 +34,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Уникальное решение",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Нигде еще вы не встречали такое решение проблемы в менеджмент-системе для обуающихся.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Безопасно",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Студенты взаимодейтсвуют друг с другом, поэтому каждый получит плохие последствия за принятые решения доставляющих неприятности другим.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Двухстороняя польза",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "И покупатель и продавец остаются получают выгоду. Один экономит время, другой - деньги за это.",
   },
 ];
 
@@ -58,25 +58,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Co-Leader & Team Leader",
+      "Запрограммировал бэкенд архитектура и транзакции проекта.",
+    name: "Абдувалов Ерсултан",
+    title: "BackEnd developer | Django",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "Создал весь дизайн, спроектировал главные цвета и особенности проекта.",
+    name: "Сунетуллаулы Жалгас",
+    title: "UI|UX designer|Manager",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Product Manager",
+      "Сверстал и запрограммировал фронтенд часть преокта, сделал ресерч по Финтех.",
+    name: "Советалы Данияр",
+    title: "Product Manager|FrontEnd developer",
     img: people03,
   },
 ];
@@ -84,18 +84,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Банков для Образовательных кредитов",
+    value: "только 4",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "от всех сделок в Казахстане  занимает маркетплейс",
+    value: "41%",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Увеличилось количество граждан имеющих банковскую карту",
+    value: "на 39%",
   },
 ];
 
@@ -103,23 +103,9 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/equipe_teaam/",
   },
-  {
-    id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
-  {
-    id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
-  },
+  
 ];
 
 export const clients = [

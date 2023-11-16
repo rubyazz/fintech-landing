@@ -31,7 +31,7 @@ const Navbar = () => {
         <div
           className={`${
             toggle ? "flex" : "hidden"
-          } justify-center border border-slate-300 bg-primary top-0 right-[-20px] absolute min-w-[250px] rounded-xl sidebar m-3 my-9`}
+          } justify-center border border-slate-300 top-0 right-[-20px] absolute min-w-[250px] rounded-xl sidebar m-3 my-9`}
         >
           <ul>
             {navLinks.map((nav) => (

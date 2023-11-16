@@ -1,4 +1,4 @@
-import React from "react";
+  import React from "react";
 import styles from "../styles/styles";
 import { Card } from "./components";
 import { people01, people02, people03 } from "../assets";
@@ -12,6 +12,7 @@ AOS.init();
 const Testimonials = () => {
   return (
     <div
+    id="team"
       className={`${styles.paddingY} flex flex-col font-poppins text-white gap-10`}
     >
       <div className="flex xs:flex-col xs:gap-5 ss:text-left ss:flex-row justify-center items-center text-center gap-0">
@@ -20,17 +21,9 @@ const Testimonials = () => {
           data-aos="fade-right"
           data-aos-duration="1000"
         >
-          What <span className="text-gradient">people</span> are saying about us
+          Наша команда состоит из <span className="text-gradient">3</span> людей
         </h1>
-        <p
-          className={`${styles.paragraph} ss:max-w-[50%] ss:w-[460px] justify-center`}
-          data-aos="fade-left"
-          data-aos-duration="1000"
-        >
-          Everything you need to accept card payments and grow your business
-          anywhere on the planet.
-        </p>
-      </div>
+        </div>
       <div className="flex flex-col sm:flex-row items-center sm:items-stretch justify-cente gap-10">
         {feedback.map((values) => (
           <Card key={values.id} {...values} />
